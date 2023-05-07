@@ -42,7 +42,7 @@ Prerrequisitos:
  
  En la carpeta Escenarios se encuentran los archivos .feature donde cada archivo corresponde a una de las funcionalidades probadas.
  
- Para ejecutar cada uno de los escenarios es necesario copiar el contenido .feature a probar y pegarlo en el archivo my_first.feature. Luego en el archivo properties.json modificar las propiedades de USERNAME1 y PASSWORD1 con un usuario y password válidos de la aplicación ghost. Finalmente ir por consola a la carpeta raíz, ejecutar el comando npm install y una vez se instalen los módulos ejecutar npx kraken-node run o ./node_modules/kraken-node/bin/kraken-node run.
+ Para ejecutar cada uno de los escenarios es necesario copiar el contenido .feature a probar y pegarlo en el archivo my_first.feature. Luego en el archivo properties.json modificar las propiedades de USERNAME1 y PASSWORD1 con un usuario y password válidos de la aplicación ghost. Finalmente ir por consola a la carpeta raíz, ejecutar el comando npm install y una vez se instalen los módulos, ejecutar npx kraken-node run o ./node_modules/kraken-node/bin/kraken-node run.
  
  
 
