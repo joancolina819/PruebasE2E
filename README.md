@@ -16,17 +16,17 @@ Se realizan pruebas E2E sobre la aplicación Ghost con dos tipos de herramientas
   - Post solo con título
   - Posto solo con body y sin título
   - Post solo con body y título etiquetas
-3. **Creación de páginas**
-  - Pagina vacia
+3. **Funcionalidad Creación de páginas**
+  - Página vacía
   - Post solo con título
-  - Posto solo con body y sin título
+  - Post solo con body y sin título
   - Post solo con body y título etiquetas
-4. **Creación de tags**
-  - Tag Vacío
+4. **Funcionalidad Creación de tags**
+  - Tag vacío
   - Tag con solo título
   - Tag con solo título, color y descripción
   - Tag con solo titulo y descripción
-5. **Cambiar información de perfil**
+5. **Funcionalidad Cambiar información de perfil**
   - Campos vacíos
   - Cambiar solo nombre
   - Cambiar nombre y correo
