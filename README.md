@@ -41,9 +41,18 @@ Prerrequisitos:
  3. Kraken: última versión
  
  En la carpeta Escenarios se encuentran los archivos .feature donde cada archivo corresponde a una de las funcionalidades probadas.
- 
- Para ejecutar cada uno de los escenarios es necesario copiar el contenido .feature a probar y pegarlo en el archivo my_first.feature. Luego en el archivo properties.json modificar las propiedades de USERNAME1 y PASSWORD1 con un usuario y password válidos de la aplicación ghost, igualmente la propiedad USERNAME1UPDATE modificarlo con el mismo valor de USERNAME1. Finalmente ir por consola a la carpeta raíz, ejecutar el comando npm install y una vez se instalen los módulos, ejecutar npx kraken-node run o ./node_modules/kraken-node/bin/kraken-node run.
- 
- 
 
+ Para ejecutar cada uno de los escenarios es necesario copiar el contenido .feature a probar y pegarlo en el archivo my_first.feature. Luego en el archivo properties.json modificar las propiedades de USERNAME1 y PASSWORD1 con un usuario y password válidos de la aplicación ghost, igualmente la propiedad USERNAME1UPDATE modificarlo con el mismo valor de USERNAME1. Finalmente ir por consola a la carpeta raíz, ejecutar el comando `npm install` y una vez se instalen los módulos, ejecutar `npx kraken-node run o ./node_modules/kraken-node/bin/kraken-node run`.
+ 
+ 
+ 
+## Instrucciones de ejecución Cypress
 
+Prerrequisitos:
+ 1. Ghost-CLI version: 1.24.0
+ 2. NodeJS version: v12.22.12
+ 3. Kraken: última versión
+ 
+ En la carpeta cypress\e2e\monkey\ se encuentran los archivos que corresponde a una de las funcionalidades que se probaron.
+
+  Para ejecutar cada uno de los escenarios es necesario ejecutar el comando `npm install`, posteriormente correr cypress por medio del comando `cypress open` en la interfaz grafica importar la carpeta raiz del proyecto, posteriormente escoger la opcion pruebas e2e, ya en el dashboard de cypress buscar la carptea testGhost y ejecutar cada archivo .cy.js que se encuentra alli.
