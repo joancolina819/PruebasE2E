@@ -38,7 +38,7 @@ Se realizan pruebas E2E sobre la aplicación Ghost con dos tipos de herramientas
 Prerrequisitos:
  1. Ghost-CLI version: 1.24.0
  2. NodeJS version: v14.21.1
- 3. Kraken: última versión
+ 3. Kraken: 5.49.0
  
  En la carpeta Escenarios se encuentran los archivos .feature donde cada archivo corresponde a una de las funcionalidades probadas.
 
